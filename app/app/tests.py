@@ -1,5 +1,5 @@
 """
-Simple tests
+Sample tests
 """
 from django.test import SimpleTestCase
 
@@ -16,7 +16,7 @@ class CalcTests(SimpleTestCase):
         self.assertEqual(res, 11)
 
     def test_subtract_numbers(self):
-        """Test adding numbers together."""
+        """Test subtracting numbers."""
         res = calc.subtract(10, 15)
 
         self.assertEqual(res, 5)
